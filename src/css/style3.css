@@ -7,7 +7,7 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
 
 /* RIGHT */
 /* BANNER */
-.right{ width:70%;height:100%; float:right; z-index:-1;}
+.right{ width:100%;height:100%;  z-index:-1;}
 .banner{position:relative;}
 #b{width:100%; height:auto; position:absolute; z-index:2;}
 .banner h1{position:absolute; top:13%; z-index:3; left:25%; right:25%;
@@ -15,7 +15,7 @@ color:white; font-size:7.5vw; font-family:Poppins; letter-spacing:17.5px;}
 
 .about h2{text-align:left; font-size:2.5vw;}
 h3{color:white;}
-#dp{width:35%; position:relative; height:auto; left:15%; border-radius: 50%; z-index:3; margin-top:17%;}
+#dp{width:35%; position:relative; height:auto; left:15%; border-radius: 50%; z-index:3; margin-top:12%;}
 
 /* ABOUT */
 .about{position:relative; top:5em; margin:0% 5%; color:white; }
