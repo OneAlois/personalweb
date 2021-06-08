@@ -33,12 +33,12 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
 .right{ width:100%;height:100%;  z-index:-1;}
 .banner{position:relative;}
 #b{width:100%; height:auto;margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); z-index:2;}
+ z-index:2;}
 .banner h1{position:absolute; top:13%; z-index:3; 
-color:white; font-size:7.5vw; font-family:Poppins; letter-spacing:20px;}
+color:white; font-size:7.5vw; font-family:Poppins; letter-spacing:20px; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .about h2{text-align:left; font-size:2.5vw;}
 h3{color:white;}
