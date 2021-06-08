@@ -12,7 +12,7 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
     background:linear-gradient(#f7e7bd,#a35d6a); position:fixed;
 }
 .left video{width:80%; height:auto;  margin:10%;}
-.left audio{margin:0% 12%; width:80%; max-width:600px}
+.left audio{margin:0% 12%; width:80%; max-width:80%;}
 .left ul{padding:0;}
 
 .uno a {
