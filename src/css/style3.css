@@ -34,8 +34,8 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
 .banner{position:relative;}
 #b{width:100%; height:auto;margin: 0; position:absolute;
  z-index:2;}
-.banner h1{position:absolute; top:15%; z-index:3; 
-color:white; font-size:8vw; font-family:Poppins; letter-spacing:20px; text-align:center;
+.banner h1{position:absolute; top:13%; z-index:3; left:25%;
+color:white; font-size:7.5vw; font-family:Poppins; letter-spacing:20px; 
 }
 
 .about h2{text-align:left; font-size:2.5vw;}
