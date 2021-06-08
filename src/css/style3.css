@@ -4,38 +4,15 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
 	overflow-x: hidden; 
     overflow-y: scroll;
 }
-/* LEFT */
-.left{
-    width:100%; z-index: 999; 
-    height:100%;  box-shadow: 2px 2px 4px grey;
-    float:left;
-    background:linear-gradient(#f7e7bd,#a35d6a); position:fixed;
-}
-.left video{width:80%; height:auto;max-width:80%;}
-.left audio{margin:0% 12%; width:80%; max-width:80%;}
-.left ul{padding:0;}
-
-.uno a {
-	display:block; color:black; text-align:center; padding:5% 5%;
-	text-decoration:none; font-family:Poppins; background:#f7e7bd;
-    font-size:1.3vw; margin:0% 10%; border-radius:1em;font-weight:300;
-}
-.uno a:hover{font-weight:300; transform: scale(1.2); text-decoration:none; color:black;}
-.dos a {
-	display:block; color:white;; text-align:center; padding:5% 5%;
-	text-decoration:none; font-family:Poppins; background:linear-gradient(#c26565,#a35d6a);
-	font-size:1.3vw; margin:0% 10%; border-radius:1em; font-weight:300;
-}
-.dos a:hover{font-weight:300; transform: scale(1.2); text-decoration:none; color:black;}
 
 /* RIGHT */
 /* BANNER */
 .right{ width:100%;height:100%;  z-index:-1;}
 .banner{position:relative;}
-#b{width:100%; height:auto;margin:15%; position:absolute;
+#b{width:100%; height:auto;margin:0; position:absolute;
  z-index:2;}
-.banner h1{position:relative; z-index:3; 
-color:white; font-size:7.5vw; font-family:Poppins; letter-spacing:20px; 
+.banner h1{position:relative; z-index:3; display:block; margin-left:auto;
+	margin-right: auto; color:white; font-size:7.5vw; font-family:Poppins; letter-spacing:20px; 
 }
 
 .about h2{text-align:left; font-size:2.5vw;}
