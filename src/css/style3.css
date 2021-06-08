@@ -6,7 +6,7 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
 }
 /* LEFT */
 .left{
-    width:30%; z-index: 999;
+    width:30%; z-index: 999; max-width:600px
     height:100%;  box-shadow: 2px 2px 4px grey;
     float:left;
     background:linear-gradient(#f7e7bd,#a35d6a); position:fixed;
