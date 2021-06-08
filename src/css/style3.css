@@ -11,7 +11,7 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
 .banner{position:relative;}
 #b{width:100%; height:auto;margin:0; position:absolute;
  z-index:2;}
-.banner h1{position:relative; z-index:3; display:block; margin-left:auto;
+.banner h1{position:absolute; z-index:3; display:block; margin-left:auto;
 	margin-right: auto; color:white; font-size:7.5vw; font-family:Poppins; letter-spacing:20px; 
 }
 
@@ -21,7 +21,7 @@ h3{color:white;}
 	margin-right: auto; border-radius: 50%; z-index:3; margin-top:17%;}
 
 /* ABOUT */
-.about{position:relative; top:5em; margin:0% 5%; }
+.about{position:relative; top:5em; margin:0% 5%; color:white; }
 .about p{font-size:1.5vw; color:white;}
 
 
