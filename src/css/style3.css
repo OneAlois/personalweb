@@ -11,7 +11,7 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
     float:left;
     background:linear-gradient(#f7e7bd,#a35d6a); position:fixed;
 }
-.left video{width:80%; height:auto;  margin:10%;}
+.left video{width:80%; height:auto;max-width:80%;}
 .left audio{margin:0% 12%; width:80%; max-width:80%;}
 .left ul{padding:0;}
 
