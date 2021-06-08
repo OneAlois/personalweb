@@ -32,20 +32,20 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
 /* BANNER */
 .right{ width:100%;height:100%;  z-index:-1;}
 .banner{position:relative;}
-#b{width:100%; height:auto;margin: 0; position:absolute;
+#b{width:100%; height:auto;margin:15%; position:absolute;
  z-index:2;}
-.banner h1{position:absolute; top:13%; z-index:3; left:25%;
+.banner h1{position:relative; z-index:3; 
 color:white; font-size:7.5vw; font-family:Poppins; letter-spacing:20px; 
 }
 
-.about h2{text-align:left; font-size:2.5vw; color:white;}
+.about h2{text-align:left; font-size:2.5vw;}
 h3{color:white;}
 #dp{width:35%; position:relative; height:auto; display:block; margin-left:auto;
 	margin-right: auto; border-radius: 50%; z-index:3; margin-top:17%;}
 
 /* ABOUT */
 .about{position:relative; top:5em; margin:0% 5%; }
-.about p{font-size:1.5vw;}
+.about p{font-size:1.5vw; color:white;}
 
 
 /* TABLE */
