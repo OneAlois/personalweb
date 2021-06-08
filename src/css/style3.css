@@ -17,8 +17,7 @@ html, body {scroll-behavior: smooth; width:100%; margin:0px;
 
 .about h2{text-align:left; font-size:2.5vw;}
 h3{color:white;}
-#dp{width:35%; position:relative; height:auto; display:block; margin-left:auto;
-	margin-right: auto; border-radius: 50%; z-index:3; margin-top:17%;}
+#dp{width:35%; position:relative; height:auto; left:15%; border-radius: 50%; z-index:3; margin-top:17%;}
 
 /* ABOUT */
 .about{position:relative; top:5em; margin:0% 5%; color:white; }
